@@ -1,0 +1,66 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+}
+
+.title {
+  all: unset;
+  padding: 1rem;
+  font-size: 1.5rem;
+  color: red;
+  cursor: pointer;
+}
+
+.titleText {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.search {
+  flex-basis: 50%;
+  padding: 1.5rem;
+}
+
+.searchInput {
+  background-color: white;
+  width: 87%;
+  font-size: 1.5rem;
+  font-family: 'Times New Roman', Times, serif;
+  padding-left: 0.5rem;
+}
+
+.searchInput:focus {
+  outline: 0;
+}
+
+.searchSubmit {
+  all: unset;
+  width: 10%;
+  font-size: 1.5rem;
+  color: white;
+  padding-left: 2%;
+  cursor: pointer;
+}
+
+.searchSubmit:active {
+  opacity: 0.8;
+}
+
+.menu {
+  display: flex;
+  padding: 1.5rem;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.menu > li {
+  padding: 0 0.4rem;
+  cursor: pointer;
+}
+
+.menu>li:hover,
+.title:hover {
+  transform: scale(1.03);
+}

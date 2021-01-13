@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Sunflower:wght@500&display=swap');
+
+.videoContainer {
+  padding: 3%;
+  flex-basis: 60%;
+}
+
+.videoPlayer {
+  width: 100%;
+  height: 40rem;
+  margin-bottom: 0.625rem;
+}
+
+@media (max-width: 56.25rem) {
+  .videoContainer {
+    flex-basis: 100%;
+  }
+  .videoPlayer {
+    height: 30rem;
+  }
+}
+ 
+.metaData {
+  font-family: 'Sunflower', sans-serif;
+  font-size: 1.2rem;
+}
+
+.title {
+  color: blue;
+  font-weight: bold;
+}
+
+.description {
+  color: green;
+}
+

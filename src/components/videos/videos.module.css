@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+}
+
+.container.playing {
+  flex-direction: column;
+  flex-basis: 40%;
+}
+
+.container.notPlaying {
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+@media (max-width: 56.26rem) {
+  .container.playing {
+    width: 100%;
+  }
+}
