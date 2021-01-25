@@ -1,3 +1,3 @@
 Stacks:
-  react.js
+  react.js &&
   Youtube Public API
